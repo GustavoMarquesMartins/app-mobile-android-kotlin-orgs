@@ -12,7 +12,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="16dp"
-        android:text="Cesta de frutas"/>
+        tools:text="Cesta de frutas"/>
 
     <TextView
         android:id="@+id/descricao"
@@ -22,16 +22,17 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="laranja, manga e uva"/>
+        tools:text="laranja, manga e uva"/>
 
     <TextView
+        android:id="@+id/valor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/descricao"
         app:layout_constraintStart_toStartOf="@+id/descricao"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="19.99"/>
+        tools:text="19.99"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
